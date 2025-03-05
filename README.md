@@ -1,15 +1,15 @@
 # languageExam
 
-Estructura del Proyecto
+En este repositorio se encuentra los ejecicios parcial 1 de lenguages de programacion:
 
-El repositorio se organiza en las siguientes carpetas:
+Cada carpeta contiene su respecto contenido y su README en donde se daran conclusiones.
 
 punto1: Diagrama de Estados de un autómata finito determinista, implementación de expresiones regulares en AWK.
 
-punto2/: Gramática de la función Lambda de Python.
+punto2: Gramática de la función Lambda de Python.
 
-punto3/: Coincidencias de la palabra clave en un archivo txt.
+punto3: Coincidencias de la palabra clave en un archivo txt.
 
-punto4/: Comparación entre lenguaje compilado e interpretado (ver documento Parcial 1.pdf).
+punto4: Comparación entre lenguaje compilado e interpretado (ver documento Parcial 1.pdf).
 
-Punto 5 Calculadora ANTLR de funciones trigonométricas.
+Punto 5: Calculadora ANTLR de funciones numeros complejos
