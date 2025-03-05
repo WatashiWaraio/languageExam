@@ -1,25 +1,15 @@
-# 📌 Factorial-Python-VS-C
+# 📌 Contador de coincidencias
 
-### 🚀 Introducción
-
-Holaa!! 😃 En este repositorio vamos a realizar un análisis  entre dos lenguajes de programación:
-
-  1. 🐍 Python (lenguaje interpretado)
-
-  2. ⚡ C (lenguaje compilado)
-
-## 🤔 ¿Por qué hacer esta comparación?
-
-Los lenguajes compilados, como C, traducen el código fuente a código máquina antes de ejecutarse, lo que los hace más rápidos y eficientes en términos de rendimiento. 
-Por otro lado, los lenguajes interpretados, como Python, ejecutan el código línea por línea, lo que facilita el desarrollo pero suele ser más lento.
+Este programa es un programa que cuenta la concurrencia en palabras que sean iguales a la clave que se esta dando
+este programa usa un buffer que permite guardar la informacion del archivo para luego analizarla, ademas que cuando 
+pasamos los argumentos estos se guardan en una especie de arreglo y asi podemos acceder al mismo.
+La key se guarda en el argumento argv[2].
 
 ## 🔧 Requisitos
 
 ### Para ejecutar las pruebas necesitas:
 
-  1.Python 3 instalado 🐍
-
-  2.Compilador GCC instalado ⚙️
+  1.Compilador GCC instalado ⚙️
 
 ## 🏗️ Cómo Compilar y Ejecutar
 
@@ -28,17 +18,10 @@ Por otro lado, los lenguajes interpretados, como Python, ejecutan el código lí
 #### Compilar el código:
 
 ```bash
-gcc suma.c
+gcc contador.c
 ```
-#### Ejecutar  el código implementado:
+#### Ejecutar  el código implementado (Key es cualquier palabra en la que desee encontrar coincidencias):
 
 ```bash
-./a.out
-```
-### 🔹 Python
-
-#### Para ejecutar el codigo en Python simplemente usa:
-
-```bash
-python3 suma.py 
+./a.out test.txt <key>
 ```
