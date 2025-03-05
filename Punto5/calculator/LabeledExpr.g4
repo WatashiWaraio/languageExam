@@ -18,6 +18,7 @@ expr:   'SQR_' expr           #Sqrt
     |   expr op=('+'|'-') expr      # AddSub
     |   INT                         # int
     |   ID                          # id
+    |   COMPLEJO                    #complejo
     |   '(' expr ')'                # parens
     ;
 

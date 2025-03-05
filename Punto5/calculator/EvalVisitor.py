@@ -47,6 +47,9 @@ class Evalvisitor(LabeledExprVisitor):
         """ Devuelve el valor de una variable almacenada en memoria """
         name = ctx.ID().getText()
         return self.memory.get(name, 0)  # Retorna 0 si la variable no existe
+
+    def visitComplex(self, ctx):
+         return complex(ctx.COMPLEJO().getText()) 
     
     def visitPow(self,ctx):
         base = self.visit(ctx.expr(0))
@@ -72,5 +75,10 @@ class Evalvisitor(LabeledExprVisitor):
     def visitLog3(self,ctx):
         value = self.visit(ctx.expr())
         return math.log(value,3)
+
+
+
+
+    
 
    
