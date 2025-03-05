@@ -1,0 +1,6 @@
+square = lambda x: x ** 2
+print(square(3))
+lambda x: x ** 2
+triangle = lambda a, b, c: a + b + c
+print(square(3))
+ = lambda u,r,c: a + 2 
