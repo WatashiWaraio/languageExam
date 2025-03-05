@@ -10,6 +10,6 @@ punto2: Gramática de la función Lambda de Python.
 
 punto3: Coincidencias de la palabra clave en un archivo txt.
 
-punto4: Comparación entre lenguaje compilado e interpretado (ver documento Parcial 1.pdf).
+punto4: Comparación entre lenguaje compilado e interpretado 
 
 Punto 5: Calculadora ANTLR de funciones numeros complejos
