@@ -2,7 +2,7 @@
 
 En este repositorio se encuentra los ejecicios parcial 1 de lenguages de programacion:
 
-Cada carpeta contiene su respecto contenido y su README en donde se daran conclusiones.
+Cada carpeta contiene su respecto contenido y su README en donde se daran las especificaciones
 
 punto1: Diagrama de Estados de un autómata finito determinista, implementación de expresiones regulares en AWK.
 
